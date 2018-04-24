@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FBObjcTool_Example' do
+  pod 'FBObjcTool', :path => '../'
+
+  target 'FBObjcTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
