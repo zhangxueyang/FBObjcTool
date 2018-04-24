@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
     s.author             = { "cocoazxy" => "cocoazxy@gmail.com" }
     s.source       = { :git => "https://github.com/zhangxueyang/FBObjcTool.git", :tag => "#{s.version}" }
 
+    s.source_files  = "Classes", "FBObjcTool/Classes/**/*.{h,m}"
+
     s.platform     = :ios, '7.0'
     s.requires_arc = true
-
-    s.source_files  = "Classes", "Classes/**/*.{h,m}"
 
 end

@@ -8,17 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		044B756233E425305DEA96B22363B34E /* Pods-FBObjcTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE31BEF72E1506B5D43101A08279614 /* Pods-FBObjcTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2721E70B67043F57E2DB4E163A203016 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */; };
+		13BE70D77893B4621E033791AB8D5F5D /* FBObjcTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11A53862AF0EF965813D595C8455C11 /* FBObjcTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20DBA2E9EA28B96D41827709DB8C9124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		272B4712ED901496D52E7A01F59B24D4 /* Pods-FBObjcTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3C600F06A50C5E55B62D159C46520 /* Pods-FBObjcTool_Example-dummy.m */; };
-		503BBB53C45395F3604AF0D80F632AB7 /* NSString+FBLineSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = C2303FA96EB40148A0A093579548D7E3 /* NSString+FBLineSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71F137BF09651ACEB573B16B23BEC662 /* Pods-FBObjcTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6DF756A82B68D4C851CDF7B9933DBE /* Pods-FBObjcTool_Tests-dummy.m */; };
-		8C738F3638D692975AD479F19A4ACF60 /* FBObjcTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA7A25A5D89D46EA56CAE72316B495 /* FBObjcTool-dummy.m */; };
-		BA4165F9574467B1351DBC54A9179C41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
-		BD5DFDB5E47468E11B03DD4542BFE94F /* FBObjcTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11A53862AF0EF965813D595C8455C11 /* FBObjcTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAE64A811BD56466CA13F844A936F27B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
-		E3B41D3155F229F77BA0A9A61B9C2CCC /* NSString+FBLineSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 868A5F46482CC7B42AB6EB600D6B8136 /* NSString+FBLineSpace.m */; };
-		E84D07A892DB4846D677F0C7F412C37B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
-		EDC7EA7C90AC0588EF2C1709D9E52D69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */; };
+		AFBB30ED6412FBDA33E3BF365C603821 /* NSString+FBLineSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = C2303FA96EB40148A0A093579548D7E3 /* NSString+FBLineSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B22903F2F62D706F99CD12FA0207DD13 /* FBObjcTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA7A25A5D89D46EA56CAE72316B495 /* FBObjcTool-dummy.m */; };
+		BA4165F9574467B1351DBC54A9179C41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CAE64A811BD56466CA13F844A936F27B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CB663EE9DB8D4949CDF66B518D8E5325 /* NSString+FBLineSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 868A5F46482CC7B42AB6EB600D6B8136 /* NSString+FBLineSpace.m */; };
 		F359D3E7C3283D8B10B611B712A7A960 /* Pods-FBObjcTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E683300A84B544170C7A20A115C2B76E /* Pods-FBObjcTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC6636A0DC323F07D4163990F6594BAD;
+			remoteGlobalIDString = 91C1C9E8178E5C86938D333AAFAE02E8;
 			remoteInfo = FBObjcTool;
 		};
 /* End PBXContainerItemProxy section */
@@ -42,6 +40,7 @@
 		579AEB97D118B5CE552EB1433376F316 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6194E6EB9C8332233FB58EE376D648EF /* Pods-FBObjcTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBObjcTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		61EEAB50F3BFE24AB47B39B7F7F4C4F4 /* FBObjcTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBObjcTool.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7732D62B5A7655C03022368964260732 /* Pods-FBObjcTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBObjcTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7DEBBE7631A16F00DB8F7B522EC7FA55 /* Pods-FBObjcTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FBObjcTool_Tests.modulemap"; sourceTree = "<group>"; };
 		804EBE12526F29B0EE3D0BED77A3F6DE /* FBObjcTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBObjcTool.modulemap; sourceTree = "<group>"; };
@@ -55,14 +54,11 @@
 		97100424E4321E2F686514E2B1F43C15 /* FBObjcTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBObjcTool.framework; path = FBObjcTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		973EB4F5E75E00DE7741EDBC92ECCF04 /* Pods-FBObjcTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBObjcTool_Example-resources.sh"; sourceTree = "<group>"; };
 		97A4976DA606F9B498CF44EA06192CE7 /* Pods-FBObjcTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBObjcTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		9AA6D1BA1FFBB63836829E6134AA1136 /* Pods-FBObjcTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBObjcTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9FB12CC38B1D4C9052AE98F8A23FA8CC /* Pods-FBObjcTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBObjcTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A11A53862AF0EF965813D595C8455C11 /* FBObjcTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBObjcTool-umbrella.h"; sourceTree = "<group>"; };
-		A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AC6DF756A82B68D4C851CDF7B9933DBE /* Pods-FBObjcTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FBObjcTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		C2303FA96EB40148A0A093579548D7E3 /* NSString+FBLineSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FBLineSpace.h"; path = "FBObjcTool/Classes/NSString+FBLineSpace.h"; sourceTree = "<group>"; };
-		CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DF8894312A2E4FA88E3B06278FE76A9F /* Pods-FBObjcTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBObjcTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E683300A84B544170C7A20A115C2B76E /* Pods-FBObjcTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FBObjcTool_Example-umbrella.h"; sourceTree = "<group>"; };
 		F06928F5ECBE2B43A38CEEE542FBC211 /* FBObjcTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBObjcTool-prefix.pch"; sourceTree = "<group>"; };
@@ -79,6 +75,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2AF78E10E234E2A1DB50D47924E1BBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DBA2E9EA28B96D41827709DB8C9124 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7053D9BA819B6F78993CD2FF34390552 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,27 +91,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C83F9749A062CBA90AFF1104D0685F6A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EDC7EA7C90AC0588EF2C1709D9E52D69 /* CoreGraphics.framework in Frameworks */,
-				E84D07A892DB4846D677F0C7F412C37B /* Foundation.framework in Frameworks */,
-				2721E70B67043F57E2DB4E163A203016 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		2D111CC626462F6FC82E5FA53D56B765 /* FBObjcTool */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,18 +170,24 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				EACA6C6DA42BE539AEFA49153A480F54 /* Development Pods */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				61C287CD4BB3254F2087C524DD884BEB /* Products */,
 				F2EC5ED2A9C86008689DFE3A66BD56F5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */,
-				CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */,
-				A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -220,6 +212,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		07220DD1507865022D99525632AB4187 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BE70D77893B4621E033791AB8D5F5D /* FBObjcTool-umbrella.h in Headers */,
+				AFBB30ED6412FBDA33E3BF365C603821 /* NSString+FBLineSpace.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EDE8E415BE40C299F5BF32E841AAF49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,15 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F359D3E7C3283D8B10B611B712A7A960 /* Pods-FBObjcTool_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F53C9C5B16EF1432D433D26AF9D14A42 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD5DFDB5E47468E11B03DD4542BFE94F /* FBObjcTool-umbrella.h in Headers */,
-				503BBB53C45395F3604AF0D80F632AB7 /* NSString+FBLineSpace.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +275,13 @@
 			productReference = 517BE0E79DE8953DB10DFCA8DCAFFE0A /* Pods_FBObjcTool_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DC6636A0DC323F07D4163990F6594BAD /* FBObjcTool */ = {
+		91C1C9E8178E5C86938D333AAFAE02E8 /* FBObjcTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEFCA11FB436AB2185F2E425CDEC0734 /* Build configuration list for PBXNativeTarget "FBObjcTool" */;
+			buildConfigurationList = 552B7C07738C6BA0CCE6A52826A6B0D0 /* Build configuration list for PBXNativeTarget "FBObjcTool" */;
 			buildPhases = (
-				0CAFBF111D4B125B1AF537E73D9BCC98 /* Sources */,
-				C83F9749A062CBA90AFF1104D0685F6A /* Frameworks */,
-				F53C9C5B16EF1432D433D26AF9D14A42 /* Headers */,
+				407284EFB952FC261A9828828DAEC1B7 /* Sources */,
+				2AF78E10E234E2A1DB50D47924E1BBE1 /* Frameworks */,
+				07220DD1507865022D99525632AB4187 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -321,7 +313,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC6636A0DC323F07D4163990F6594BAD /* FBObjcTool */,
+				91C1C9E8178E5C86938D333AAFAE02E8 /* FBObjcTool */,
 				4024F41D9A25D650F79C4746278AF02C /* Pods-FBObjcTool_Example */,
 				599A7711CF7F54B396B0BDAA040F4DA5 /* Pods-FBObjcTool_Tests */,
 			);
@@ -329,12 +321,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0CAFBF111D4B125B1AF537E73D9BCC98 /* Sources */ = {
+		407284EFB952FC261A9828828DAEC1B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C738F3638D692975AD479F19A4ACF60 /* FBObjcTool-dummy.m in Sources */,
-				E3B41D3155F229F77BA0A9A61B9C2CCC /* NSString+FBLineSpace.m in Sources */,
+				B22903F2F62D706F99CD12FA0207DD13 /* FBObjcTool-dummy.m in Sources */,
+				CB663EE9DB8D4949CDF66B518D8E5325 /* NSString+FBLineSpace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +352,7 @@
 		652B7EF5DD932B5161CB0CE26A02E1C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBObjcTool;
-			target = DC6636A0DC323F07D4163990F6594BAD /* FBObjcTool */;
+			target = 91C1C9E8178E5C86938D333AAFAE02E8 /* FBObjcTool */;
 			targetProxy = 2455DF0E7B5CB52C4685CFA3849B9E06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -398,6 +390,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		27776E0E07194A75E1A91B7490D7CBD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EEAB50F3BFE24AB47B39B7F7F4C4F4 /* FBObjcTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBObjcTool/FBObjcTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBObjcTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBObjcTool/FBObjcTool.modulemap";
+				PRODUCT_NAME = FBObjcTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		2BC3481764368792482E2BAF2B535026 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -492,6 +513,36 @@
 			};
 			name = Debug;
 		};
+		67D2F787938664AC0291811D34601173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EEAB50F3BFE24AB47B39B7F7F4C4F4 /* FBObjcTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBObjcTool/FBObjcTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBObjcTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBObjcTool/FBObjcTool.modulemap";
+				PRODUCT_NAME = FBObjcTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -544,65 +595,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		A920B0B9DD5E966CBFA8870382FD3B6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61EEAB50F3BFE24AB47B39B7F7F4C4F4 /* FBObjcTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBObjcTool/FBObjcTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBObjcTool/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBObjcTool/FBObjcTool.modulemap";
-				PRODUCT_NAME = FBObjcTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D947AC19E017393F31C02B6199F75949 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61EEAB50F3BFE24AB47B39B7F7F4C4F4 /* FBObjcTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBObjcTool/FBObjcTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBObjcTool/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBObjcTool/FBObjcTool.modulemap";
-				PRODUCT_NAME = FBObjcTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -691,20 +683,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		552B7C07738C6BA0CCE6A52826A6B0D0 /* Build configuration list for PBXNativeTarget "FBObjcTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27776E0E07194A75E1A91B7490D7CBD3 /* Debug */,
+				67D2F787938664AC0291811D34601173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9D19797843322E074D67317DD576AAD6 /* Build configuration list for PBXNativeTarget "Pods-FBObjcTool_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCC243EB8A5884B958C64C025B637FBE /* Debug */,
 				2BC3481764368792482E2BAF2B535026 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AEFCA11FB436AB2185F2E425CDEC0734 /* Build configuration list for PBXNativeTarget "FBObjcTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A920B0B9DD5E966CBFA8870382FD3B6D /* Debug */,
-				D947AC19E017393F31C02B6199F75949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

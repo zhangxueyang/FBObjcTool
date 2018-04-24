@@ -12,14 +12,12 @@
     "git": "https://github.com/zhangxueyang/FBObjcTool.git",
     "tag": "0.1.0"
   },
+  "source_files": [
+    "Classes",
+    "FBObjcTool/Classes/**/*.{h,m}"
+  ],
   "platforms": {
     "ios": "7.0"
   },
-  "requires_arc": true,
-  "frameworks": [
-    "Foundation",
-    "CoreGraphics",
-    "UIKit"
-  ],
-  "source_files": "FBObjcTool/Classes/**/*"
+  "requires_arc": true
 }
