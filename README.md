@@ -28,15 +28,15 @@ zhangxueyang, cocoazxy@gmail.com
 
 FBObjcTool is available under the MIT license. See the LICENSE file for more info.
 
-###How  To   Use
+### How  To   Use
 
-####设置添加完行间距的属性
+#### 设置添加完行间距的属性
 ```
 NSString *thirdStr = @"测试一下数据测试一下数据测试测试一下数据测试一下数据测试测试一下数据测试一下数据测试测试一下数据测试一下数据测试测试一下数据测试一下数据测试测试一下数据测试一下数据测试测试一下数据测试一下数据测试测试一下数据测试一下数据测试测试一下数据测试一下数据测试测试一下数据测试一下数据测试测试一下数据测试一下数据测试测试一下数据测试一下数据测试测试一下数据测试一下数据测试eeeee";
 NSMutableAttributedString *attribute2 = [thirdStr fb_setLineSpaceWithSize:itemSize font:font lineSpace:kLineSpace];
 self.thirdLab.attributedText = attribute2;
 ```
-####获取行高
+#### 获取行高
 ```
 CGSize thirdSize = [thirdStr fb_boundingRectWithSize:itemSize font:font lineSpacing:kLineSpace];
 
