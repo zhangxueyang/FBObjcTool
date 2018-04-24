@@ -1,0 +1,6 @@
+framework module FBObjcTool {
+  umbrella header "FBObjcTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

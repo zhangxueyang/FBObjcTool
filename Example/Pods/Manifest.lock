@@ -1,0 +1,16 @@
+PODS:
+  - FBObjcTool (0.1.0)
+
+DEPENDENCIES:
+  - FBObjcTool (from `../`)
+
+EXTERNAL SOURCES:
+  FBObjcTool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBObjcTool: a800b05df6791791ca796cf9860e63ec8629c1d7
+
+PODFILE CHECKSUM: 6f3dc82b84a2afa298eb9bdd7afe8119c184d017
+
+COCOAPODS: 1.3.1

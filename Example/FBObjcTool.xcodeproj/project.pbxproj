@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F7D03F656BA205E9FD1F7E1 /* FBObjcTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FBObjcTool.podspec; path = ../FBObjcTool.podspec; sourceTree = "<group>"; };
+		0F7D03F656BA205E9FD1F7E1 /* FBObjcTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FBObjcTool.podspec; path = ../FBObjcTool.podspec; sourceTree = "<group>"; };
 		1968EF52AFB5ED45D72236FB /* Pods-FBObjcTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBObjcTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBObjcTool_Example/Pods-FBObjcTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FBObjcTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBObjcTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,13 +58,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6850227B5AD30DDAE58661DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6850227B5AD30DDAE58661DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74CBC566F7D33178307C953A /* Pods-FBObjcTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBObjcTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBObjcTool_Example/Pods-FBObjcTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7AF8D90BF99347E02BF49CA2 /* Pods-FBObjcTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBObjcTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBObjcTool_Tests/Pods-FBObjcTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D974C851C616604B62E856A3 /* Pods-FBObjcTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBObjcTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBObjcTool_Tests/Pods-FBObjcTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DADA2A61769050476A01A795 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DADA2A61769050476A01A795 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DC76FB42B9C2FBE1D5B8D24A /* Pods_FBObjcTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBObjcTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26F1993FE81DF2FF29693C2 /* Pods_FBObjcTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBObjcTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
